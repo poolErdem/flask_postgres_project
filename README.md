@@ -5,8 +5,8 @@ This project is a simple API built using Flask and PostgreSQL. The application f
 ## Project Overview
 
 - Developed using Flask framework for building the API.
-- PostgreSQL database connection is established.
-- Environment variables are securely handled using `.env` file.
+- PostgreSQL database connection is established (psycopg2).
+- Environment variables are securely handled using `.env` file (dotenv).
 - The API fetches energy prices from the database and returns them in JSON format.
 
 ## Installation
